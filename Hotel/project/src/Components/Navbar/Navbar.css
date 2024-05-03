@@ -1,0 +1,60 @@
+/* Navbar.css */
+
+.nav {
+    background-color: rgb(66, 66, 48);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+    color: aqua;
+    position: fixed;
+    top: 0%;
+    width: 100%;
+    z-index: 9999;
+}
+
+.nav1 {
+    padding-left: 10px; /* Adjust the value based on your preference */
+    flex: 1;
+    font-size: large;
+    color: white;
+}
+
+.nav2 ul {
+    list-style: none;
+    display: flex;
+    align-items: center; /* Center items vertically in the flex container */
+}
+
+.nav2 li {
+    margin-left: 10px;
+    padding: 5px;
+    color: rgb(241, 234, 234);
+    font-size: 20px;
+    letter-spacing: 2px;
+    font-family: 'Times New Roman', Times, serif;
+    border-width: 2px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.nav3 i {
+    color: white;
+    font-size: 24px;
+}
+
+/* Style the Logout button */
+.nav2 button {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    font-size: 14px;
+    margin-left: 10px; /* Add margin to separate the button from the last item */
+}
+
+/* Change button styles on hover */
+.nav2 button:hover {
+    background-color: #bd2130;
+}

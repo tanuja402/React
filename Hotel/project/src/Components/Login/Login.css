@@ -1,0 +1,40 @@
+.LoginForm-container {
+  background-image: url('https://img.freepik.com/premium-photo/healthy-breakfast-with-muesli-fruits-berries-nuts-coffee-eggs-honey-white-background_158114-74.jpg'); /* Specify the path to your image */
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-form-content {
+  background-color: rgba(255, 255, 255, 0.8); /* Add a semi-transparent white background for the form content to improve readability */
+  padding: 20px;
+  border-radius: 8px;
+  color: #333; /* Change text color to dark */
+}
+
+/* Add some margin between the buttons */
+.login-form-content button {
+  margin-right: 10px; /* Adjust the margin as needed */
+}
+
+/* Style the signup button with red color */
+.login-form-content button[type="button"] {
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+.login-form-content button[type="button"]:hover {
+  background-color: darkred;
+}
+/* Login.css */
+.login-heading {
+  color: rgb(7, 7, 7); /* Change the color to whatever you like */
+}
+

@@ -1,0 +1,24 @@
+.MainPage-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  text-align: center; /* Center text horizontally */
+  background-image: url(https://thumbs.dreamstime.com/b/continental-breakfast-captured-above-top-view-flat-lay-coffee-orange-juice-croissants-jam-berry-milk-flowers-blue-132554729.jpg);
+  background-size: cover;
+  color:aliceblue; /* Set text color to white or a suitable color for better visibility */
+}
+
+.buttons-container {
+  margin-top: 20px;
+}
+
+.buttons-container button {
+  margin: 5px;
+}
+h1{
+  text-align: center;
+  font-size: 80px;
+  color: black;
+}

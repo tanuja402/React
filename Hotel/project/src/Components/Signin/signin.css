@@ -1,0 +1,70 @@
+/* signin.css */
+
+.SignUpForm-container {
+  background-image: url(https://i.pinimg.com/736x/24/82/c9/2482c92eeb9c3aa88eed48583731dc94.jpg);
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
+}
+
+.SignUpForm-container div {
+  background-color: #f0f0f0;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  text-align: center;
+  color: #333;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.gf {
+  margin-bottom: 8px;
+}
+
+.le {
+  padding: 8px;
+  margin-bottom: 16px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+button {
+  padding: 10px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+.success-message {
+  color: #4caf50;
+  font-weight: bold;
+  text-align: center;
+}
+
+.error-message {
+  color: #f44336;
+  font-weight: bold;
+  text-align: center;
+}
+/* signin.css */
+.signup-heading {
+  color: rgb(3, 3, 3); /* Change the color to whatever you like */
+}
+

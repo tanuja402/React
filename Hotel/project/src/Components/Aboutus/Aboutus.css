@@ -1,0 +1,24 @@
+/* AboutUs.css */
+
+.about-us-container {
+    max-width: largepx;
+    margin: 0 auto;
+    padding: 5px;
+    font-size: 25px;
+    background-image: url(https://img.freepik.com/premium-photo/herb-spices-cooking-background_136595-562.jpg);
+    background-size: cover;
+    color: black;
+  }
+  
+  .image-container {
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  .breakfast-image1 {
+    max-width: 80%;
+    
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
